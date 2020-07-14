@@ -13,6 +13,10 @@
   font-family: sans-serif;
   src: url(fonts/SansSerif-Regular.otf);
 }
+@font-face {
+  font-family: 'Noto Sans', sans-serif;
+  src: url(fonts/NotoSans-Regular.ttf);
+}
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -27,6 +31,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
+  --black: #000000;
 }
 .m-5 {
   margin: 5rem;
@@ -143,5 +148,9 @@
   50% {
     letter-spacing: 15px;
     color: var(--blue);
+  }
+  100% {
+    letter-spacing: 8px;
+    color: var(--black);
   }
 }
