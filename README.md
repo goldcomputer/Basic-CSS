@@ -1,2 +1,2 @@
 # Basic-CSS
-Free 'Basic CSS' Library. No Requirements.
+Free 'Basic CSS, JS' Library. No Requirements.
